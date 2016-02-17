@@ -74,13 +74,5 @@ public class AndroidPhysicalKeysActivity extends Activity {
 		return true;
 	}
 
-	// catches the on touch event on screen and shows the specific pixels
-	// touched
-	@Override
-	public boolean onTouchEvent(MotionEvent event) {
-		float x = event.getX();
-		float y = event.getY();
-		actionLabel.setText("Touch press on x: " + x + " y: " + y);
-		return true;
-	}
+	
 }
